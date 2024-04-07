@@ -6,6 +6,7 @@ module com.kontrolinis.template.kontroliniotemplate {
     requires com.dlsc.formsfx;
     requires org.kordamp.bootstrapfx.core;
     requires java.sql;
+    requires mysql.connector.j;
 
     opens com.kontrolinis.template.kontroliniotemplate to javafx.fxml;
     exports com.kontrolinis.template.kontroliniotemplate;

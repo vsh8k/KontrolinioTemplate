@@ -3,9 +3,9 @@ package com.kontrolinis.template.kontroliniotemplate.model;
 import java.sql.*;
 
 public class MySQLConnector {
-    private static final String JDBC_URL = "jdbc:mysql://localhost:3306/your_database_name";
-    private static final String USERNAME = "your_username";
-    private static final String PASSWORD = "your_password";
+    private static final String JDBC_URL = "jdbc:mysql://localhost:3306/products";
+    private static final String USERNAME = "root";
+    private static final String PASSWORD = "";
     private Connection connection;
 
     public MySQLConnector() {

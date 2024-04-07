@@ -1,5 +1,6 @@
 package com.kontrolinis.template.kontroliniotemplate;
 
+import com.kontrolinis.template.kontroliniotemplate.model.MySQLConnector;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -13,6 +14,7 @@ public class mainApplication extends Application {
         FXMLLoader fxmlLoader = new FXMLLoader(mainApplication.class.getResource("main-window.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 320, 240);
         stage.setTitle("Window Name");
+        MySQLConnector connector = new MySQLConnector();
         stage.setScene(scene);
         stage.show();
     }
