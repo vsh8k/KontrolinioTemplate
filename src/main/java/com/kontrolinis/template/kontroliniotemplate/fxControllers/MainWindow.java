@@ -1,2 +1,4 @@
-package com.kontrolinis.template.kontroliniotemplate.fxControllers;public class MainWindow {
+package com.kontrolinis.template.kontroliniotemplate.fxControllers;
+
+public class MainWindow {
 }
